@@ -2340,5 +2340,24 @@ var THEMEMASCOT = {};
     //call function before document ready
     THEMEMASCOT.initialize.TM_preLoaderClickDisable();
 
+    $(document).ready(function(){
+        $('.donate-tag').bind('click', function() {
+            $(location).attr('href', 'donate.html')
+          });
+        $('.donate-img').each(function(){
+            var num = Math.floor(Math.random() * 10 + 1),
+            img = $(this);
+            if(num > 3 && num < 7){
+                img.attr('src', 'images/cancer2.jpg')
+            }
+            else if(num < 4){
+                img.attr('src', 'images/cancer.jpg')
+            }
+            else if(num > 6){
+                img.attr('src', 'images/cancer 1.jpg')
+            }
+        })
+    })
+
 })(jQuery);
   
