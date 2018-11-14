@@ -3963,7 +3963,7 @@ form .error {
     color: #2e6da4 !important;
     padding: 4px;
     position: absolute;
-    bottom: 18px;
+    bottom: 2vw;
 }
 
 /* .custom-gallery {
@@ -7706,8 +7706,8 @@ blockquote p {
 .team .content {
     clear: both;
     display: block;
+    max-height: 160px;
     min-height: 130px;
-    max-height: 130px;
 }
 
 .team .content .title {
@@ -9194,4 +9194,16 @@ mtop-30 {
 
     .xs-hide {
     }
+}
+
+team-button {
+}
+
+.team-button {
+    background: none !important;
+    border: none !important;
+    color: #2e6da4 !important;
+    padding: 4px;
+    position: absolute;
+    bottom: 1vw;
 }
