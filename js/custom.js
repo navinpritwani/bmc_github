@@ -2347,13 +2347,10 @@ var THEMEMASCOT = {};
         $('.donate-img').each(function(){
             var num = Math.floor(Math.random() * 10 + 1),
             img = $(this);
-            if(num > 3 && num < 7){
-                img.attr('src', 'images/cancer2.jpg')
-            }
-            else if(num < 4){
+            if(num > 5){
                 img.attr('src', 'images/cancer.jpg')
             }
-            else if(num > 6){
+            else if(num < 6){
                 img.attr('src', 'images/cancer 1.jpg')
             }
         })

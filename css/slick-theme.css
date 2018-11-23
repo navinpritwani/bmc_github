@@ -187,13 +187,13 @@
 .slick-prev {
     left: 0px;
     color: #000;
-    background: #000;
+    background: #90b842 !important;
     z-index: 99;
 }
 
 .slick-next {
     right: 0px;
     color: #000;
-    background: #000;
+    background: #90b842 !important;
     z-index: 99;
 }

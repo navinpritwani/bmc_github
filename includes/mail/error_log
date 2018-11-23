@@ -1,0 +1,5 @@
+[24-Jul-2017 13:39:54 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/popularpaints/public_html/mail/contact_me.php on line 17
+[24-Jul-2017 13:43:31 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/popularpaints/public_html/mail/contact_me.php on line 17
+[25-Jul-2017 08:19:55 UTC] PHP Warning:  Creating default object from empty value in /home/popularpaints/public_html/mail/contact_me.php on line 12
+[25-Jul-2017 08:27:03 UTC] PHP Warning:  Creating default object from empty value in /home/popularpaints/public_html/mail/contact_me.php on line 12
+[25-Jul-2017 10:01:26 UTC] PHP Notice:  Undefined variable: email in /home/popularpaints/public_html/mail/contact_me.php on line 24

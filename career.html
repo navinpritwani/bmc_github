@@ -146,7 +146,7 @@
                                             </ul>                                             
                                         </div>
                                         <div class="widget no-border pull-right sm-text-center mb-0 col-sm-6 col-xs-6 col-md-8 col-lg-9 text-center" style="margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px;">
-     <img src="images/triplecbannergreen.jpg"/> 
+                                            <img src="images/triplecbannergreen.jpg"/> 
                                         </div>
                                     </div>                                     
                                 </div>                                 
@@ -175,23 +175,14 @@
                                                     <a href="doctors-list.html">Doctors List</a>
                                                 </li>                                                 
                                                 <li>
-                                                     
-                                                </li>                                                 
+</li>                                                 
                                             </ul>                                             
                                         </li>                                         
                                         <li class="active">
                                             <a href="career.html">Career</a> 
                                         </li>                                         
                                         <li>
-                                            <a>Events</a>
-                                            <ul class="dropdown"> 
-                                                <li>
-                                                    <a href="events-list.html">General Events</a>
-                                                </li>                                                 
-                                                <li>
-                                                    <a href="events-list.html">Community Events</a>
-                                                </li>                                                 
-                                            </ul>
+                                            <a href="events-list.html">Events</a>
                                         </li>                                         
                                         <li>
                                             <a>Gallery</a> 
@@ -237,11 +228,131 @@
                                 <img src="images/career.jpg"/>
                                 <img src="images/cancer%201.jpg" style="margin-top: 40px;" class="donate-img"/>
                             </div>
-                            <div class="col-md-7 col-lg-8"> 
+                            <div class="bg-lightest-transparent p-30 pt-10 col-md-7 col-lg-8"> 
+                                <h3 class="text-center text-theme-colored mb-20">Apply Now</h3> 
+                                <form action="includes/job_enquiry.php" method="post"> 
+                                    <div class="row"> 
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_name">Name 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_name" name="form_name" type="text" placeholder="Enter Name" required="" class="form-control"> 
+                                            </div>                                             
+                                        </div>                                         
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_phone">Phone 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_phone" name="form_phone" class="form-control required phone" type="phone" placeholder="Enter Phone No."> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="row"> 
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_email">Email 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_email" name="form_email" class="form-control required email" type="email" placeholder="Enter Email"> 
+                                            </div>                                             
+                                        </div>                                         
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_qualification">Qualification 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_qualification" name="form_qualification" type="text" placeholder="Enter Educational Qualifications" required="" class="form-control"> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="row"> 
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_experience">Total Experience 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_experience" name="form_experience" type="text" placeholder="Enter Total Experience" required="" class="form-control"> 
+                                            </div>                                             
+                                        </div>                                         
+                                        <div class="col-sm-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_employer">Previous/Current Employer 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_employer" name="form_employer" type="text" placeholder="Enter Previous/Current Employer" required="" class="form-control"> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="row"> 
+                                        <div class="col-sm-6 col-lg-6 col-md-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_rexperience">Relevant Experience 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <input id="form_rexperience" name="form_rexperience" type="text" placeholder="Enter Relevant Experience" required="" class="form-control"> 
+                                            </div>                                             
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-6"> 
+                                            <div class="form-group"> 
+                                                <label for="form_sex">Sex 
+                                                    <small>*</small>
+                                                </label>                                                 
+                                                <select id="form_sex" name="form_sex" class="form-control required"> 
+                                                    <option value="Male">Male</option>                                                     
+                                                    <option value="Female">Female</option>                                                     
+                                                </select>                                                 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                    <div class="row"> 
+</div>                                     
+                                    <div class="form-group"> 
+                                        <label for="form_message">Message 
+                                            <small>*</small>
+                                        </label>                                         
+                                        <textarea id="form_message" name="form_message" class="form-control required" rows="5" placeholder="Your cover letter/message sent to the employer"></textarea>                                         
+                                    </div>                                     
+                                    <div class="form-group"> 
+                                        <label for="image">C/V Upload</label>                                         
+                                        <input id="image"  name="image" class="file" type="file" multiple data-show-upload="false" data-show-caption="true"> 
+                                        <small>Maximum upload file size: 12 MB</small> 
+                                    </div>                                     
+                                    <div class="form-group"> 
+                                        <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value=""/> 
+                                        <button type="submit" class="btn btn-block btn-dark btn-theme-colored btn-sm mt-20 pt-10 pb-10" data-loading-text="Please wait...">Apply Now</button>                                         
+                                    </div>                                     
+                                </form>                                 
+                                <!-- Job Form Validation-->                                 
+                                <!-- <script type="text/javascript">
+                                    $("#job_apply_form").validate({
+                                        submitHandler: function(form) {
+                                        var form_btn = $(form).find('button[type="submit"]');
+                                        var form_result_div = '#form-result';
+                                        $(form_result_div).remove();
+                                        form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                                        var form_btn_old_msg = form_btn.html();
+                                        form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                                        $(form).ajaxSubmit({
+                                            dataType:  'json',
+                                            success: function(data) {
+                                            if( data.status == 'true' ) {
+                                                $(form).find('.form-control').val('');
+                                            }
+                                            form_btn.prop('disabled', false).html(form_btn_old_msg);
+                                            $(form_result_div).html(data.message).fadeIn('slow');
+                                            setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                                            }
+                                        });
+                                        }
+                                    });
+                                </script>                                  -->
+                            </div>
+                            <div class="col-md-7 col-lg-12"> 
                                 <div class="heading-line-bottom mt-0 mb-30"> 
-                                    <!-- <h4 class="heading-title">Job List Style</h4> -->                                     
-                                </div>                                 
-                                <div class="icon-box mb-0 p-0"> 
+</div>                                 
+                                <!-- <div class="icon-box mb-0 p-0"> 
                                     <a href="#" class="icon icon-gray pull-left mb-0 mr-10"> <i class="pe-7s-users"></i> </a> 
                                     <h3 class="icon-box-title pt-15 mt-0 mb-40">Finance Manager</h3> 
                                     <p>Job Id:</p> 
@@ -273,7 +384,7 @@
                                     <hr> 
                                     <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi id perspiciatis facilis nulla possimus quasi, amet qui. Ea rerum officia, aspernatur nulla neque nesciunt alias repudiandae doloremque, dolor, quam nostrum laudantium earum illum odio quasi excepturi mollitia corporis quas ipsa modi nihil, ad ex tempore.</p> 
                                     <a class="btn btn-dark btn-sm mt-15" href="job-details.html">Read More</a> 
-                                </div>                                 
+                                </div>                                  -->
                             </div>                             
                         </div>                         
                     </div>                     
@@ -305,7 +416,7 @@
                                         <a href="specialities.html">Specialities</a>
                                     </li>                                     
                                     <li>
-                                        <a href="facilities.html">Facilities</a>
+                                        <a href="amenities.html">Amenities</a>
                                     </li>                                     
                                     <li>
                                         <a href="doctors-list.html">Doctors</a>
@@ -342,7 +453,7 @@
                                         <a href="https://www.vedantaresources.com" target="_blank">Vedanta Resources</a> 
                                     </li>                                     
                                     <li> 
-                                        <a href="#">BMC Compliances</a>
+                                        <a href="bmc.html">BMC Compliances</a>
                                     </li>                                     
                                 </ul>                                 
                             </div>                             
@@ -396,7 +507,7 @@
                                         <img src="images/1024px-Map_ballonicon2.svg.png" style="max-width: 80px; margin: auto; display: block; padding: 0px;"/>
                                     </a>
                                     <br>
-                                    <a href="contact.html">Vedanta Medical Research Foundation, Sector 36, Atal
+                                    <a target="_blank" href="https://www.google.com/maps/place/BALCO+Medical+Centre+-Best+Cancer+hospital+in+Raipur+Chhattisgarh/@21.1220887,81.7747578,17z/data=!3m1!4b1!4m5!3m4!1s0x3a28c5d79c434733:0xbd32ce58666699fa!8m2!3d21.1220887!4d81.7769465">Vedanta Medical Research Foundation, Sector 36, Atal
 Nagar  , PO: Upparwara, Raipur-493661</a>
                                 </li>                                 
                             </ul>                             

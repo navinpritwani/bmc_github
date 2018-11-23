@@ -3957,13 +3957,13 @@ form .error {
     color: #fff;
 }
 
-.team .content button {
-    background: none !important;
+.team .content .btn {
     border: none !important;
-    color: #91b74a !important;
+    color: #ffffff !important;
     padding: 4px;
     position: absolute;
     bottom: 2vw;
+    background-color: #91b74a;
 }
 
 /* .custom-gallery {
@@ -9200,10 +9200,10 @@ team-button {
 }
 
 .team-button {
-    background: none !important;
     border: none !important;
-    color: #2e6da4 !important;
+    color: #ffffff !important;
     padding: 4px;
     position: absolute;
     bottom: 1vw;
+    background-color: #91b74a !important;
 }
